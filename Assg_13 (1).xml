@@ -1,0 +1,34 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<?xml-stylesheet type = "text/xsl" href = "Assg_13.xsl"?>
+<class>
+  <student rollno="1">
+    <firstname>Dinkar</firstname>
+    <lastname>Kad</lastname>
+    <nickname>Dinkar</nickname>
+    <marks>85</marks>
+  </student>
+  <student rollno="2">
+    <firstname>Vaneet</firstname>
+    <lastname>Gupta</lastname>
+    <nickname>Vinni</nickname>
+    <marks>95</marks>
+  </student>
+  <student rollno="3">
+    <firstname>Jasvir</firstname>
+    <lastname>Singh</lastname>
+    <nickname>Jazz</nickname>
+    <marks>90</marks>
+  </student>
+  <student rollno="4">
+    <firstname>Shama</firstname>
+    <lastname>Khan</lastname>
+    <nickname>Shammu</nickname>
+    <marks>91</marks>
+  </student>
+  <student rollno="5">
+    <firstname>Mitun</firstname>
+    <lastname>Singh</lastname>
+    <nickname>Mittu</nickname>
+    <marks>98</marks>
+  </student>
+</class>

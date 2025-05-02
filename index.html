@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Web Development</title>
+  <style>
+    * {
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+    }
+    body {
+        background: linear-gradient(135deg, #cacc42 0%, #efebeb 100%);
+      font-family: 'Poppins', sans-serif;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      min-height: 100vh;
+      padding: 20px;
+    }
+
+     
+    .header {
+      text-align: center;
+      margin-top: 30px;
+      animation: slideDown 1s ease forwards;
+    }
+
+    .header h1 {
+      font-size: 50px;
+      color: #333333;
+      text-shadow: 2px 2px 5px rgba(0, 0, 0, 0.1);
+    }
+
+    .header p {
+      font-size: 24px;
+      color: #666666;
+      margin-top: 10px;
+      font-weight: 500;
+    }
+
+     
+    .main-content {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      margin-top: 100px;  
+    }
+
+    .box-container {
+      display: flex;
+      gap: 40px;
+      flex-wrap: wrap;
+      justify-content: center;
+    }
+
+    .box {
+      background: white;
+      width: 180px;
+      height: 180px;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      border-radius: 20px;
+      text-decoration: none;
+      font-size: 24px;
+      font-weight: 600;
+      color: #4A90E2;
+      box-shadow: 0 8px 20px rgba(0, 0, 0, 0.1);
+      transition: 0.4s;
+      position: relative;
+      overflow: hidden;
+    }
+
+     
+    .box:hover {
+      transform: translateY(-8px) scale(1.05);
+      background: linear-gradient(135deg, #89f7fe 0%, #66a6ff 100%);
+      color: white;
+      box-shadow: 0 12px 24px rgba(0, 0, 0, 0.2);
+    }
+
+  
+    @keyframes slideDown {
+      from {
+        transform: translateY(-50px);
+        opacity: 0;
+      }
+      to {
+        transform: translateY(0);
+        opacity: 1;
+      }
+    }
+  </style>
+</head>
+<body>
+  <div class="header">
+    <h1>Web Development</h1>
+    <p><h2> Srushti Sathe</h2></p>  
+    <p><h3>CSE-B 84</h3></p>
+  </div>
+
+  <div class="main-content">
+    <div class="box-container">
+      <a href="html.html" class="box">HTML</a>
+      <a href="CSS.html" class="box">CSS</a>
+      <a href="xml.html" class="box">XML</a>
+    </div>
+  </div>
+
+</body>
+</html>

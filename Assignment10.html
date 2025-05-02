@@ -1,0 +1,141 @@
+<!DOCTYPE html>
+<html>
+ <head>
+  <title>Student Registration Form</title>    
+ </head>
+  <style>body {
+    font-family: Arial, sans-serif;
+    background-color: white;
+  }
+
+  h1 {
+    color: #333;
+  }
+
+  table.center {
+    border-collapse: collapse;
+    width: 100%;
+    border: 1px solid #ddd;
+  }
+
+  td {
+    padding: 10px;
+    border-bottom: 1px solid #ddd;
+  }
+
+  input[type="text"], input[type="password"], select, textarea {
+    width: 100%;
+    padding: 8px;
+    margin: 4px 0;
+    box-sizing: border-box;
+    
+  }
+  
+  table,th,td{
+    border: 1px solid black;
+    background-color:lightblue;
+  }
+  </style>
+ <body> 
+ <form>
+  <table align="center" width="700" cellpadding="10">
+  
+  <tr>
+   <td colspan="2" align="center">
+     <h1>Student Registration Form</h1>
+   </td>
+  </tr>
+
+  <tr>
+    <td>Roll no. :</td>
+    <td><input type="text" size="50"/></td>
+  </tr>
+
+  <tr>
+    <td>Student name :</td>
+    <td>
+      <input type="text" size="21" Placeholder="First Name"/>
+      -
+      <input type="text" size="21" Placeholder="Last Name"/>
+    </td>
+  </tr>
+  
+  <tr>
+    <td>Father's name :</td>
+    <td><input type="text" size="50"/></td>
+  </tr>
+  
+  <tr>
+    <td>Date of birth :</td>
+    <td>
+      <input type="text" size="3" Placeholder="Day" /> - 
+      <input type="text" size="3" Placeholder="Month" /> -
+      <input type="text" size="8" Placeholder="Year" /> 
+      <i>(DD-MM-YYYY)</i>
+    </td>
+  </tr>
+  
+  <tr>
+    <td>Mobile no. :</td>
+    <td>
+      <input type="text" size="1" value="+91" /> -
+       
+  </tr>
+  <tr>
+    <td>Email id :</td>
+    <td><input type="text" size="50"/></td>
+  </tr>
+  
+  <tr>
+    <td>Gender :</td>
+    <td>
+      <input type="radio" name="g" /> Male
+      <input type="radio" name="g" /> Female
+    </td>
+  </tr>
+  
+  <tr>
+    <td>Department :</td>
+    <td><select>
+        <option> ---------------------- Select Deapartment ------------------------ </option>
+        <option>CSE</option>
+        <option>Mechanical</option>
+        <option>Civil</option>
+        <option>Electrical</option>
+        <option>Chemical</option>
+      </select>
+    </td>
+  </tr>
+  
+  <tr>
+    <td>Course :</td>
+    <td><select>
+        <option> ---------------------- Select Current Course's ------------------------ </option>
+        <option>Python</option>
+        <option>Node</option>
+        <option>Java</option>
+        <option>React</option>
+        <option>PHP</option>
+      </select>
+    </td>
+  </tr>
+  <tr>
+    <td>City :</td>
+    <td><input type="text"  size="50"/></td>
+  </tr>
+  
+  <tr>
+    <td>Address :</td>
+    <td><textarea cols="48" rows="5"></textarea></td>
+  </tr>
+  <tr>
+    <td colspan="2" align="center">
+    	<input type="submit" value="Register" />
+     </td>
+  </tr>
+  
+  </table>
+ </form>
+ 
+</body>
+</html>
